@@ -1,5 +1,5 @@
 {
-  "name": "ang-cesium-b",
+  "name": "ang-cesium-primeng-s0.1",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -11,7 +11,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^6.0.3",
+    "@angular/animations": "^6.1.0",
     "@angular/common": "^6.0.3",
     "@angular/compiler": "^6.0.3",
     "@angular/core": "^6.0.3",
@@ -22,6 +22,8 @@
     "@angular/router": "^6.0.3",
     "cesium": "^1.46.1",
     "core-js": "^2.5.4",
+    "primeicons": "^1.0.0-beta.10",
+    "primeng": "^6.0.2",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },

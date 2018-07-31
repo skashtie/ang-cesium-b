@@ -1,1 +1,2 @@
-<div appCesium></div>
+<button (click)= "toggleAppShown()" *ngIf=false>toggleAppShown</button>
+<div appCesium *ngIf="isAppShown"></div>

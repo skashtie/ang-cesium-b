@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ang cesium b';
+  isAppShown = true;
+
+  toggleAppShown() {
+    this.isAppShown = !this.isAppShown;
+  }
 }
