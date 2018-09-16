@@ -48,7 +48,7 @@ export class CesiumMapComponent implements OnInit {
   address: any;
   geocoder: any;
   autocomplete: any;
-  tmpStr = 'this is  tmpStr';
+  tmpStr = 'this is  tmpStr aaa';
 
   constructor(
     private threeDTilesService: ThreeDTilesService,
