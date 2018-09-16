@@ -24,7 +24,7 @@
               {
                 "glob": "**/*",
                 "input": "node_modules/cesium/Build/Cesium",
-                "output": "/assets/cesium"
+                "output": "assets/scripts/cesium"
               }
             ],
             "styles": [
@@ -84,10 +84,7 @@
             "karmaConfig": "src/karma.conf.js",
             "styles": [
               "node_modules/cesium/Build/Cesium/Widgets/widgets.css",
-              "src/styles.css",
-              "node_modules/primeicons/primeicons.css",
-              "node_modules/primeng/resources/themes/omega/theme.css",
-              "node_modules/primeng/resources/primeng.min.css"
+              "src/styles.css"
             ],
             "scripts": [
               "node_modules/cesium/Build/Cesium/Cesium.js"

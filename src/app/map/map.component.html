@@ -1,0 +1,9 @@
+<!-- <p>
+  map works!
+</p> -->
+<div [hidden]=false>
+
+  <button (click)= "toggleAppShown()" *ngIf=true>toggleAppShown</button>
+  <!-- <div appCesium *ngIf="isAppShown"></div> -->
+</div>
+<app-cesium-map *ngIf=isAppShown></app-cesium-map>

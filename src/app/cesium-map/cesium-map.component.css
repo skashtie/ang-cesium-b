@@ -1,0 +1,22 @@
+:host /deep/  .ui-menuitem {
+  border: 1px black solid !important;
+  margin: 4px;
+}
+:host /deep/  .ui-menubar {
+  border: 1px black solid !important;
+}
+/* :host /deep/ .ui-menuitem-text   {
+  color: black  !important;
+} */
+
+:host /deep/  .ui-menuitem:hover {
+  border: 1px black solid !important;
+  /* margin-left: 9px; */
+  background-color: black  !important;
+  color: white  !important;
+
+}
+
+/* :host /deep/ .ui-menuitem-text:hover   {
+  color: white  !important;
+} */

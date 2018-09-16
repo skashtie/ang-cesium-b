@@ -1,2 +1,7 @@
-<button (click)= "toggleAppShown()" *ngIf=false>toggleAppShown</button>
-<div appCesium *ngIf="isAppShown"></div>
+<p-menubar [model]="items" [hidden]=false>
+  <div>
+      <input type="text" pInputText placeholder="Search">
+      <button pButton label="Logout" icon="pi pi-star-o"></button>
+  </div>
+</p-menubar>
+<router-outlet></router-outlet>

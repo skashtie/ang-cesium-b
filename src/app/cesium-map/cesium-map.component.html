@@ -1,0 +1,38 @@
+<!-- <p>
+  cesium-map works!
+</p> -->
+
+<p *ngIf='isDownloading || isDownloadingB || isDownloadingC '>Downloading</p>
+<!-- <input id="pac-input" [(ngModel)]="address" class="controls" type="text" placeholder="Enter a location" (click)="address ='';address = 'נתניה ' + address;googleInputSuggestionsS($event)"
+  (focus)="address ='';address = 'נתניה ' + address" autocomplete="on"> -->
+
+  <input id="pac-input" [(ngModel)]="address" class="controls" type="text" placeholder="Enter a location" (focus)="address ='';address = 'נתניה ' + address">
+<!-- <button (click)="initGoogleMapsPlacesAutocompleteService()">MapsPlaces</button> -->
+<button (click)="address ='';address = 'נתניה ' + address;googleInputSuggestionsS($event)">search</button>
+
+<!-- <input id="pac-input" [(ngModel)]="address" class="controls" type="text" placeholder="Enter a location"
+   (click)="googleInputSuggestionsS($event)"
+   > -->
+<!-- (focus)="googleInputSuggestionsS($event)" -->
+<!-- (change)="googleInputSuggestionsS($event)" -->
+<!-- <input type="text" pInputText placeholder="Search Geocoder"> -->
+
+<!-- {{isDownloading}} {{isDownloadingB}} {{isDownloadingC}} -->
+<!-- <button pButton type="button" label="Toggle Shadows" (click)="toggleShadows()"></button> -->
+<!-- <button pButton type="button" label="3D" (click)="toggleThreeDTiles()"></button>
+<button pButton type="button" label="Streets" (click)="toggleStreets()"></button>
+<button pButton type="button" label="Municipal Areas" (click)="toggleMuni()"></button>
+<button pButton type="button" label="רקע" (click)="toggleViewerEnv()"></button>
+<button pButton type="button" label="navZoomIn" (click)="navZoomIn()"></button> -->
+<!-- <button pButton type="button" label="navZoomOut" (click)="navZoomOut()"></button>
+<button pButton type="button" label="navTop()" (click)="navTop()"></button>
+<button pButton type="button" label="navNorth()" (click)="navNorth()"></button>
+<button pButton type="button" label="flyHome()" (click)="flyHome()"></button>
+<button pButton type="button" label="showBuildings()" (click)="showBuildings()"></button>
+<button pButton type="button" label="showBlocks()" (click)="showBlocks()"></button> -->
+
+<p-menubar [model]="menubarItems">
+  <!-- <input type="text" pInputText placeholder="Search">
+  <button pButton label="Logout" icon="fa fa-sign-out"></button> -->
+</p-menubar>
+<div #cesiumMap></div>
